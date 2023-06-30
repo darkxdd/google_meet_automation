@@ -5,6 +5,7 @@ This python script script uses Selenium to log into your gmail account at first 
 - Python3
 - pip
 - Chrome
+- ChromeDriver
 
 #### The required packages can be installed with
 
