@@ -2,11 +2,11 @@
 ### This python script script uses Selenium to log into your gmail account at first to get all around access of google services and then joins the meeting link!
 
 ## Prerequisite
-### Python3
-### pip
-### Chrome
+#### Python3
+#### pip
+#### Chrome
 
-### The required packages can be installed with
+#### The required packages can be installed with
 
 > `pip install selenium` 
 
