@@ -1,5 +1,5 @@
 ## Join Google Meet automatically with camera and microphone turned off with the help of python script.
-### This python script script uses Selenium to log into your gmail account at first to get all around access of google services and then joins the meeting link!
+#### This python script script uses Selenium to log into your gmail account at first to get all around access of google services and then joins the meeting link!
 
 ## Prerequisite
 #### Python3
