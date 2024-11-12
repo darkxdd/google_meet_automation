@@ -11,29 +11,30 @@ This Python script uses Selenium to log into your Gmail account and then join a 
 
 ## Installation
 1. Install the required packages:
-   ```
-   pip install selenium
+   ```fish
+   pip install selenium pytz
    ```
 2. Clone the repository:
-   ```
+   ```fish
    git clone https://github.com/darkxdd/google_meet_automation.git
    ```
 3. Navigate to the project directory:
-   ```
+   ```fish
    cd google_meet_automation
    ```
 
 ## Usage
-1. Open the `main.py` file and update the following variables with your information:
-   - `mail_address`: Your Gmail email address
-   - `password`: Your Gmail password
-   - `meeting_link`: The Google Meet meeting link you want to join
-2. Run the script:
-   ```
+1. Run the script:
+   ```fish
    python main.py
    ```
-3. The script will prompt you to enter the meeting start and end times in the format `HH:MM:SS`.
-4. The script will log into your Gmail account, join the meeting, turn off the microphone and camera, and then exit the meeting at the specified end time.
+2. The script will prompt you for the following inputs:
+   - **Email Address**: Your Gmail email address
+   - **Password**: Your Gmail password (entered securely)
+   - **Meeting Link**: The Google Meet meeting link
+   - **Start Time**: The time to join the meeting in the format `HH:MM:SS` (IST)
+   - **End Time**: The time to leave the meeting in the format `HH:MM:SS` (IST)
+3. The script will log into your Gmail account, join the meeting, turn off the microphone and camera, and then exit the meeting at the specified end time.
 
 ## How it works
 1. The script uses the Selenium WebDriver to automate the browser interactions.
