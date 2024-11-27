@@ -17,7 +17,7 @@ This Python script uses Selenium to log into your Gmail account and then join a 
 2. Install ChromeDriver:
    For Windows:
    ```fish
-   winget install --id=Chromium.ChromeDriver  -e
+   winget install -e --id Chromium.ChromeDriver
    ```
    For Mac OS:
    ```fish
