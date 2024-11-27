@@ -14,11 +14,20 @@ This Python script uses Selenium to log into your Gmail account and then join a 
    ```fish
    pip install selenium pytz
    ```
-2. Clone the repository:
+2. Install ChromeDriver:
+   For Windows:
+   ```fish
+   winget install --id=Chromium.ChromeDriver  -e
+   ```
+   For Mac OS:
+   ```fish
+   brew install --cask chromedriver
+   ```
+3. Clone the repository:
    ```fish
    git clone https://github.com/darkxdd/google_meet_automation.git
    ```
-3. Navigate to the project directory:
+4. Navigate to the project directory:
    ```fish
    cd google_meet_automation
    ```
